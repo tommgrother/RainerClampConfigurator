@@ -14,7 +14,8 @@ Module Module1
 
         Dim fileI As FileInfo
 
-
+        Console.WriteLine("Please place all files to be converted into 'C:\temp\r' folder. Press any key to continue.")
+        Console.ReadLine()
 
         For Each fileI In fileArray
             Dim clipData As String
