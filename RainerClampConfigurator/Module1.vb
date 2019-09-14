@@ -8,8 +8,6 @@ Module Module1
         Dim di As New DirectoryInfo(dirString)
 
 
-
-
         Dim fileArray As FileInfo() = di.GetFiles()
 
         Dim fileI As FileInfo
